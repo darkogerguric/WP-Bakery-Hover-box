@@ -1,0 +1,92 @@
+/* .roll_wrap
+	{
+		position: relative;
+	}
+.roll_wrap_img img
+	{
+		width: 100%;
+	}
+
+.roll_wrap_link
+	{
+		opacity: 0;
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		top: 0;
+		z-index: 10;
+		font-weight: bold;
+		cursor: pointer;
+		word-break: break-all;
+	}
+
+.roll_wrap_link a,
+.roll_wrap_link a:hover,
+.roll_wrap_link a:focus
+	{
+
+		font-size: inherit;
+		color: inherit;
+	}
+
+
+
+.roll_wrap:hover .roll_wrap_link
+	{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		opacity: 1;
+		transition: all .3s ease-in-out;
+
+	}
+ */
+
+	/*NEW*/
+
+
+.visible_image{
+background-repeat: no-repeat;
+height:400px;
+max-height: auto;
+width:400px;
+max-width: 100%;
+position: relative;
+
+}
+
+.visible_text{
+	position: absolute;
+	display: block;
+	bottom: 0;
+	width:100%;
+	margin: 0 auto;
+	padding: 5px;
+	text-align: center;
+}
+
+
+[class^="dh-container"] {
+				margin: 15px;
+				width: 300px;
+				height: 300px;
+				background: black;
+				float: left;
+			}
+[class^="dh-overlay"] {
+				
+				width: 100%;
+				height: 100%;
+				padding: 5px;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				align-content: center;
+			}
+
+/* .dh-container:hover .visible_text{
+	display: none;
+	transition: 0.3s;
+}			 */

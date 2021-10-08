@@ -16,7 +16,7 @@ It will create simple hover widget in VC, you can use text and images.
 
 == Demo ==
 
-1. <p>Check Demo (http://geniusworks.xyz/plugins/hover-box/) </p>
+1. <p>Check Demo (https://plugins.darkog.pro/hover-box-demo/) </p>
 
 == Installation ==
 1. Install from Wp Plugins Directory
